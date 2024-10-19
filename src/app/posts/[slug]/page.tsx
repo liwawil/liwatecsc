@@ -50,7 +50,7 @@ export function generateMetadata({ params }: Params): Metadata {
     return notFound();
   }
 
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
+  const title = `${post.title} | LiwaTec Software Company Blog, Journal, Essays, and Writings`;
 
   return {
     title,
