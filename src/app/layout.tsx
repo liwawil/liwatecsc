@@ -7,11 +7,13 @@ import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `LiwaTec Software Company`,
+  description: `Blog, journal, writings, and essays about computer software and development.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
@@ -63,6 +65,7 @@ export default function RootLayout({
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
