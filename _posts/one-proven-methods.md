@@ -1,7 +1,7 @@
 ---
 title: "Three Proven Ways to Speed Up Your Web Development Process"
 excerpt: "Speed and effeciency are crucial in web development. Optimizing your workflow can save you time and resources while maintaining high quality."
-coverImage: "/assets/blog/preview/cover.jpg"
+coverImage: "/assets/blog/proven-ways/cover.jpg"
 date: "2024-10-19T10:42:00.000Z"
 author:
   name: Willie Liwa Johnson
