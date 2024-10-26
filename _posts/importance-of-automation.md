@@ -2,7 +2,7 @@
 title: "The Importance of Embracing Automation in Software and Game Development"
 excerpt: "A competitive techonlogy landscape needs automation."
 coverImage: "/assets/essay/automation.jpg"
-date: "2024-10-25T09:25:00.000Z"
+date: "2024-10-26T08:54:00.000Z"
 author:
   name: Willie Liwa Johnson
   picture: "/assets/authors/wlj.jpg"
