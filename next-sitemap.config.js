@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://liwatecsoftware.xyz',
-  generateRobotsTxt: true, // (optional)
+  siteUrl: process.env.SITE_URL || 'https://www.liwatecsoftware.xyz',
+  generateRobotsTxt: false, // (optional)
   // ...other options
 }
