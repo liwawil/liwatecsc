@@ -1,5 +1,5 @@
 ---
-title: "The Importance of Embracing Automation in Software Development"
+title: "The Importance of Embracing Automation in Software and Web Development"
 excerpt: "A competitive techonlogy landscape needs automation."
 coverImage: "/assets/essay/automation.jpg"
 date: "2024-10-26T08:54:00.000Z"
