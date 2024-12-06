@@ -58,6 +58,15 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <title>LiwaTec Software Company</title>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.liwatecsoftware.xyz" />
+        <meta property="og:title" content="LiwaTec Software Company" />
+        <meta property="og:description" content="Innovative software solutions, applications, and games to empower businesses and individuals." />
+        <meta property="og:image" content="favicon/android-chrome-512x512.png" />
+        <meta property="og:site_name" content="LiwaTec Software Company" />
+        <meta property="og:locale" content="en_US" />
+
       </head>
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
