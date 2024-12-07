@@ -7,7 +7,7 @@ export function Footer() {
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
           <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Blog, journal, essays, and writings statically generated with Next.js.
+          Insights and stories powered by Next.js — Blogs, journals, essays, and writings delivered seamlessly.
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
@@ -21,6 +21,12 @@ export function Footer() {
               className="mx-3 font-bold hover:underline"
             >
               View GitHub
+            </a>
+            <a
+              href={`https://x.com/liwawil`}
+              className="mx-3 font-bold hover:underline"
+            >
+              Follow on X
             </a>
           </div>
         </div>
