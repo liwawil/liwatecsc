@@ -50,13 +50,14 @@ export function generateMetadata({ params }: Params): Metadata {
     return notFound();
   }
 
-  const title = `${post.title} | LiwaTec Software Company Blog, Journal, Essays, and Writings`;
-
+  const title = `${post.title}`;
   return {
     title,
+    authors: [post.author],
     openGraph: {
       title,
       images: [post.ogImage.url],
+      description: post.excerpt,
     },
   };
 }
